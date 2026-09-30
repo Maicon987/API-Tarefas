@@ -1,0 +1,17 @@
+ :root {
+  font-family: 'DM Sans', 'Segoe UI', sans-serif;
+  color: #263834;
+  background: #f7f9f7;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+* { box-sizing: border-box; }
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+button { font-family: inherit; }
+button:focus-visible, a:focus-visible { outline: 3px solid #75bea7; outline-offset: 3px; }
+::selection { color: #145f4d; background: #cfeee1; }
